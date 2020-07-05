@@ -13,27 +13,13 @@ Foloowing Build and Compilation Environments are need to make this project run s
 
 # Compiling and executing the project
 
-In this project, I have used to workspace environment provided by Udacity and hence mostly, worked directly in that environment.
+In this project, I have used workspace environment provided by Udacity and hence mostly, worked directly in that environment.
 
 - Create the build directory: `mkdir build`
 - `cd build`
 - `cmake ..`
-- `make`: This will create two executables
+- `make`: This will create executable
   - `ExtendedKF` : EKF implementation.
-  - `Test` : Simple unit tests.
-
-## Running the tests
-From the build directory, execute `./Tests`. The output should be something similar to this:
-
-```
-ERROR - CalculateRMSE () - The estimations vector is empty
-ERROR - CalculateRMSE () - The ground-truth vector is empty
-ERROR - CalculateRMSE () - The ground-truth and estimations vectors must have the same size.
-ERROR - CalculateJacobian () - The state vector must have size 4.
-ERROR - CalculateJacobian () - Division by Zero
-===============================================================================
-All tests passed (13 assertions in 2 test cases)
-```
 
 
 ## Running the Filter
